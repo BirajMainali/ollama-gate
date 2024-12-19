@@ -1,0 +1,6 @@
+﻿services:
+  ollamagate:
+    image: ollamagate
+    build:
+      context: .
+      dockerfile: OllamaGate/Dockerfile
