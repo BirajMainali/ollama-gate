@@ -20,9 +20,7 @@ public class Program
 
         app.MapOpenApi();
         app.MapScalarApiReference();
-
-        app.UseHttpsRedirection();
-
+        
         app.MapReverseProxy();
 
 
